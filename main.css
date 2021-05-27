@@ -14,7 +14,6 @@ body {
 	padding: 10px;
 }
 
-
 .section-title {
 	color: #2ddf5c;
 }
@@ -32,5 +31,20 @@ body {
 
 .main-nav__item {
 	display: inline-block;
+}
+
+.main-nav__items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-header > div, .main-nav {
+	display: inline-block;
+}
+
+.main-nav {
+	text-align: right;
+	width: calc(100% - 49px);
 }
 
