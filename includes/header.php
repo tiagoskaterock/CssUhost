@@ -14,7 +14,7 @@
 <body>
 	<header class="main-header">
 		<div>
-			<a href="index.php">
+			<a href="index.php" class="main-header__brand">
 				uHost
 			</a>
 		</div>
