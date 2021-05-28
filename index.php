@@ -2,11 +2,11 @@
 
   <main>
     <section id="product-overview">
-      <h1>Get the freedom you deserve.</h1>
+      <h1>Hi! I'm Tiago Developer</h1>
     </section>
     <section id="plans">
-      <h1 class="section-title">Choose your plan</h1>
-      <p>Make sure to get the most for your money!</p>
+      <h1 class="section-title">Full Stack Developer</h1>
+      <p>I am a developer, and I simply love what I do!</p>
     </section>
   </main>
 </body>
