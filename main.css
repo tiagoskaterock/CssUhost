@@ -46,6 +46,14 @@ body {
 	color: #0e4f1f;
 }
 
+.main-nav__item > a:hover {
+	color: #fff;
+}
+
+.main-nav__item > a:active {
+	color: #fff;
+}
+
 .main-nav__items {
 	margin: 0;
 	padding: 0;
@@ -63,6 +71,6 @@ body {
 
 .main-nav {
 	text-align: right;
-	width: calc(100% - 100px);
+	width: calc(100% - 150px);
 	vertical-align: middle;
 }
