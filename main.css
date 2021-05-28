@@ -38,12 +38,19 @@ body {
 
 .main-nav__item {
 	display: inline-block;
+	margin-right: 30px;
+}
+
+.main-nav__item > a {
+	text-decoration: none;
+	color: #0e4f1f;
 }
 
 .main-nav__items {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-weight: bold;
 }
 
 .main-header > div {
