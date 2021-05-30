@@ -27,7 +27,7 @@
 				<li class="main-nav__item">
 					<a href="#">Back End</a>
 				</li>
-				<li class="main-nav__item">
+				<li class="main-nav__item main-nav__item--cta">
 					<a href="#">Full Stack</a>
 				</li>
 			</ul>
