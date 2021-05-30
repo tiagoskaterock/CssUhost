@@ -41,14 +41,17 @@ body {
 	margin-right: 30px;
 }
 
-.main-nav__item > a {
+.main-nav__item a {
 	text-decoration: none;
 	color: #0e4f1f;
+	font-weight: bolder;	
+	padding: 3px 0;
 }
 
 .main-nav__item a:hover, 
 .main-nav__item a:active {
 	color: #fff;
+	border-bottom: 5px solid #fff;
 }
 
 .main-nav__items {
