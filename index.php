@@ -9,8 +9,8 @@
       <p>I am a developer, and I simply love what I do!</p>
 
       <article class="plan">
-          <h1>FREE</h1>
-          <h2>$0/month</h2>
+          <h1 class="plan__title">FREE</h1>
+          <h2 class="plan__price">$0/month</h2>
           <h3>For hobby projects or small teams.</h3>
           <ul class="plan__features">
             <li>1 Workspace</li>
@@ -28,8 +28,8 @@
 
         <article class="plan plan--highlighted">
           <h1 class="plan__annotation">RECOMMENDED</h1>
-          <h1>PLUS</h1>
-          <h2>$29/month</h2>
+          <h1 class="plan__title">PLUS</h1>
+          <h2 class="plan__price">$29/month</h2>
           <h3>For ambitious projects.</h3>
           <ul class="plan__features">
             <li>5 Workspaces</li>
@@ -46,8 +46,8 @@
 
 
         <article class="plan">
-          <h1>PREMIUM</h1>
-          <h2>$99/month</h2>
+          <h1 class="plan__title">PREMIUM</h1>
+          <h2 class="plan__price">$99/month</h2>
           <h3>Your enterprise solution.</h3>
           <ul class="plan__features">
             <li>10 Workspaces</li>
