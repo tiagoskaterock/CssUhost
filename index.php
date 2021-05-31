@@ -26,8 +26,8 @@
 
 
 
-        <article class="plan">
-          <h1>RECOMMENDED</h1>
+        <article class="plan plan--highlighted">
+          <h1 class="plan__annotation">RECOMMENDED</h1>
           <h1>PLUS</h1>
           <h2>$29/month</h2>
           <h3>For ambitious projects.</h3>
