@@ -79,8 +79,8 @@ body {
 	padding: 10px;
 }
 
-.section-title {
-	color: #2ddf5c;
+section > .section-title {
+	color: #2ddf5c;text-align: center;
 }
 
 #product-overview h1{
@@ -161,5 +161,23 @@ body {
 
 .button:focus {
 	outline: none;
+}
+
+#key-features {
+	background: #ff1b68;
+	margin-top: 80px;
+	padding: 16px;
+}
+
+#key-features .section-title {
+	color: white;
+	margin: 32px;
+}
+
+#key-features li {
+	display: inline-block;
+	width: 33%;
+	color: white;
+	font-weight: bold;	
 }
 

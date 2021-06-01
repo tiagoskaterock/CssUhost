@@ -60,6 +60,43 @@
           </div>
         </article>
     </section>
+
+
+    <section id="key-features">
+      <h1 class="section-title">Many Good Reasons to Stick Around</h1>
+      <ul>
+
+
+
+        <li>
+          <div>
+
+          </div>
+          <p>3,857,000 Trusting Customers</p>
+        </li>
+
+
+
+        <li>
+          <div>
+
+          </div>
+          <p>99.999% Uptime Guarantee</p>
+        </li>
+
+
+
+        <li>
+          <div>
+
+          </div>
+          <p>Lightning Fast CDN</p>
+        </li>
+
+
+
+      </ul>
+    </section>
   </main>
 </body>
 
