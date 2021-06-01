@@ -7,6 +7,71 @@ body {
 	margin: 0;
 }
 
+.main-header {
+	background-color: #2ddf5c;
+	width: 100%;
+	padding: 8px 16px;
+}
+
+.main-header__brand {
+	color: #0e4f1f;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.main-nav__item {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.main-nav__item a {
+	text-decoration: none;
+	color: #0e4f1f;
+	font-weight: bolder;	
+	padding: 3px 0;
+}
+
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+	color: white;
+	border-bottom: 5px solid white;
+}
+
+.main-nav__items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+.main-header > div {
+	vertical-align: middle;
+}
+
+.main-header > div, .main-nav {
+	display: inline-block;
+}
+
+.main-nav {
+	text-align: right;
+	width: calc(100% - 150px);
+	vertical-align: middle;
+}
+
+.main-nav__item--cta a {
+	color: white;
+	background: #ff1b68;
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover, .main-nav__item--cta a:active {
+	color: #ff1b68;
+	background: white;
+	border: none;
+}
+
 #product-overview {
 	background-image: url('img/freedom.jpg');
 	width: 100%;
@@ -77,67 +142,20 @@ body {
 	text-align: center;
 }
 
-.main-header {
-	background-color: #2ddf5c;
-	width: 100%;
-	padding: 8px 16px;
-}
-
-.main-header__brand {
-	color: #0e4f1f;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 22px;
-}
-
-.main-nav__item {
-	display: inline-block;
-	margin-right: 30px;
-}
-
-.main-nav__item a {
-	text-decoration: none;
-	color: #0e4f1f;
-	font-weight: bolder;	
-	padding: 3px 0;
-}
-
-.main-nav__item a:hover, 
-.main-nav__item a:active {
+.button {
+	background: #0e4f1f;
 	color: white;
-	border-bottom: 5px solid white;
-}
-
-.main-nav__items {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-weight: bold;
-}
-
-.main-header > div {
-	vertical-align: middle;
-}
-
-.main-header > div, .main-nav {
-	display: inline-block;
-}
-
-.main-nav {
-	text-align: right;
-	width: calc(100% - 150px);
-	vertical-align: middle;
-}
-
-.main-nav__item--cta a {
-	color: white;
-	background: #ff1b68;
-	padding: 8px 16px;
+	font: inherit;
+	border: 1.5px solid #0e4f1f;
+	padding: 8px;
 	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
 }
 
-.main-nav__item--cta a:hover, .main-nav__item--cta a:active {
-	color: #ff1b68;
+.button:hover,
+.button:active {
 	background: white;
-	border: none;
+	color: #0e4f1f;
 }
+

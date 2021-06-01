@@ -19,7 +19,7 @@
             <li>Basic Support</li>
           </ul>
           <div>
-            <button>CHOOSE PLAN</button>
+            <button class="button">CHOOSE PLAN</button>
           </div>
         </article>
 
@@ -38,7 +38,7 @@
             <li>Plus Support</li>
           </ul>
           <div>
-            <button>CHOOSE PLAN</button>
+            <button class="button">CHOOSE PLAN</button>
           </div>
         </article>
 
@@ -56,7 +56,7 @@
             <li>Priority Support</li>
           </ul>
           <div>
-            <button>CHOOSE PLAN</button>
+            <button class="button">CHOOSE PLAN</button>
           </div>
         </article>
     </section>
