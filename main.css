@@ -176,8 +176,19 @@ section > .section-title {
 
 #key-features li {
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 	color: white;
 	font-weight: bold;	
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.key-feature__img {
+	background: #ffcede;
+	width: 128px;
+	height: 128px;
+	margin: auto;
+	border: 2px solid #424242;
+	border-radius: 50%;
 }
 

@@ -9,14 +9,14 @@
       <p>I am a developer, and I simply love what I do!</p>
 
       <article class="plan">
-          <h1 class="plan__title">FREE</h1>
-          <h2 class="plan__price">$0/month</h2>
+          <h1 class="plan__title">FRONT END</h1>
+          <h2 class="plan__price">$2500/month</h2>
           <h3>For hobby projects or small teams.</h3>
           <ul class="plan__features">
-            <li>1 Workspace</li>
-            <li>Unlimited Traffic</li>
-            <li>10GB Storage</li>
-            <li>Basic Support</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>BootStrap</li>
           </ul>
           <div>
             <button class="button">CHOOSE PLAN</button>
@@ -28,14 +28,14 @@
 
         <article class="plan plan--highlighted">
           <h1 class="plan__annotation">RECOMMENDED</h1>
-          <h1 class="plan__title">PLUS</h1>
-          <h2 class="plan__price">$29/month</h2>
+          <h1 class="plan__title">BACK END</h1>
+          <h2 class="plan__price">$2900/month</h2>
           <h3>For ambitious projects.</h3>
           <ul class="plan__features">
-            <li>5 Workspaces</li>
-            <li>Unlimited Traffic</li>
-            <li>100GB Storage</li>
-            <li>Plus Support</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Laravel</li>
+            <li>PHP MyAdmin</li>
           </ul>
           <div>
             <button class="button">CHOOSE PLAN</button>
@@ -46,14 +46,14 @@
 
 
         <article class="plan">
-          <h1 class="plan__title">PREMIUM</h1>
-          <h2 class="plan__price">$99/month</h2>
+          <h1 class="plan__title">Full Stack</h1>
+          <h2 class="plan__price">$5000/month</h2>
           <h3>Your enterprise solution.</h3>
           <ul class="plan__features">
-            <li>10 Workspaces</li>
-            <li>Unlimited Traffic</li>
-            <li>Unlimited Storage</li>
-            <li>Priority Support</li>
+            <li>User Experience</li>
+            <li>Search Engine Optimization</li>
+            <li>Design</li>
+            <li>Front End + Back End</li>
           </ul>
           <div>
             <button class="button">CHOOSE PLAN</button>
@@ -69,7 +69,7 @@
 
 
         <li>
-          <div>
+          <div class="key-feature__img">
 
           </div>
           <p>3,857,000 Trusting Customers</p>
@@ -78,7 +78,7 @@
 
 
         <li>
-          <div>
+          <div class="key-feature__img">
 
           </div>
           <p>99.999% Uptime Guarantee</p>
@@ -87,7 +87,7 @@
 
 
         <li>
-          <div>
+          <div class="key-feature__img">
 
           </div>
           <p>Lightning Fast CDN</p>
