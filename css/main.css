@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.main-header {
+	background-color: #2ddf5c;
+	width: 100%;
+	padding: 8px 16px;
+}
+
+.main-header__brand {
+	color: #0e4f1f;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.main-nav__item {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.main-nav__item a {
+	text-decoration: none;
+	color: #0e4f1f;
+	font-weight: bolder;	
+	padding: 3px 0;
+}
+
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+	color: white;
+	border-bottom: 5px solid white;
+}
+
+.main-nav__items {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+.main-header > div {
+	vertical-align: middle;
+}
+
+.main-header > div, .main-nav {
+	display: inline-block;
+}
+
+.main-nav {
+	text-align: right;
+	width: calc(100% - 150px);
+	vertical-align: middle;
+}
+
+.main-nav__item--cta a {
+	color: white;
+	background: #ff1b68;
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover, .main-nav__item--cta a:active {
+	color: #ff1b68;
+	background: white;
+	border: none;
+}
+
+#product-overview {
+	background-image: url('img/freedom.jpg');
+	width: 100%;
+	height: 528px;
+	padding: 10px;
+}
+
+section > .section-title {
+	color: #2ddf5c;text-align: center;
+}
+
+#product-overview h1{
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.plan {
+	background: #d5ffdc;
+	text-align: center;
+	padding: 16px;
+	margin: 8px;
+	display: inline-block;
+	width: 30%;	
+	vertical-align: middle;
+}
+
+.plan--highlighted {
+	background: #19b84c;
+	color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.plan__annotation {
+	background: white;
+	color: #19b84c;
+	padding: 10px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .5);
+	border-radius: 4px;
+}
+
+.plan__title {
+	color: #0e4f1f;
+}
+
+.plan__price {
+	color:  #858585;
+}
+
+.plan--highlighted .plan__price {
+	color: #044f1f;
+}
+
+.plan--highlighted .plan__title {
+	color: white;
+}
+
+.plan__features {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.plan__features > li {
+	margin: 15px 0;
+}
+
+#plans > h1, p {
+	text-align: center;
+}
+
+.button {
+	background: #0e4f1f;
+	color: white;
+	font: inherit;
+	border: 1.5px solid #0e4f1f;
+	padding: 8px;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+	background: white;
+	color: #0e4f1f;
+}
+
+.button:focus {
+	outline: none;
+}
+
+#key-features {
+	background: #ff1b68;
+	margin-top: 80px;
+	padding: 16px;
+}
+
+#key-features .section-title {
+	color: white;
+	margin: 32px;
+}
+
+#key-features li {
+	display: inline-block;
+	width: 30%;
+	color: white;
+	font-weight: bold;	
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.key-feature__img {
+	background: #ffcede;
+	width: 128px;
+	height: 128px;
+	margin: auto;
+	border: 2px solid #424242;
+	border-radius: 50%;
+}
+
