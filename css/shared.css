@@ -55,8 +55,15 @@
 	background-color: #bcb;
 }
 
+.clearfix {
+	clear: both;
+}
+
 .free {
 	background-color: #dfd;
+	float: right;
+	border-left: 5px solid #020;
+	border-right: 0;
 }
 
 .free:hover {
