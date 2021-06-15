@@ -2,6 +2,13 @@
 	 padding-top: 50px;
 }
 
+.background-tiago {
+	background: url("../img/plans-background.jpg");
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
 .tiago-box {
 	background-color: #dfd;
 	border: 5px solid #020;

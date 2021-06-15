@@ -12,6 +12,8 @@ body {
 	position: fixed;
 	width: 100%;
 	padding: 8px 16px;
+	left: 0px;
+	top: 0px;
 }
 
 .main-header__brand {
