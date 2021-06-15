@@ -9,6 +9,7 @@ body {
 
 .main-header {
 	background-color: #2ddf5c;
+	position: fixed;
 	width: 100%;
 	padding: 8px 16px;
 }
