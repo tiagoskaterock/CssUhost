@@ -7,18 +7,22 @@
 	border: 5px solid #020;
 	margin-bottom: 15px;
 	width: 70%;
+	border-left: 0;
 }
 
 .tiago-box a {
 	text-decoration: none;
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 .tiago-box h1 {
 	color: #020;
-	padding: 10px;
+	padding: 0;
 	margin-left: 50px;
 	padding-left: 0px;
-	margin-top: 50px;
+	margin-top: 0;
 	font-weight: bold;
 }
 
