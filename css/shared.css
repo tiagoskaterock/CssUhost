@@ -1,1 +1,39 @@
-shared.css
+.tiago-main {
+	margin-top: 50px;
+}
+
+.tiago-box {
+	background-color: #dfd;
+	border: 5px solid #020;
+	margin-bottom: 15px;
+	width: 70%;
+}
+
+.tiago-box a {
+	text-decoration: none;
+}
+
+.tiago-box h1 {
+	color: #020;
+	padding: 10px;
+	margin-left: 50px;
+	padding-left: 0px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.tiago-box h2 {
+	color: gray;
+	margin-left: 50px;
+}
+
+.tiago-box p {
+	background-color: white;
+	width: 80%;
+	margin-left: 50px;
+	padding: 15px;
+	color: #020;
+	border: 2px solid darkgreen;
+	margin-bottom: 30px;
+	text-align: left;
+}
