@@ -10,6 +10,11 @@
 	border-left: 0;
 }
 
+.tiago-box:hover {
+	box-shadow: 2px 2px 4px #cdc;
+	border: 5px solid red;
+}
+
 .tiago-box a {
 	text-decoration: none;
 	display: block;
@@ -40,4 +45,32 @@
 	border: 2px solid darkgreen;
 	margin-bottom: 30px;
 	text-align: left;
+}
+
+.plus {
+	background-color: #bdb;
+}
+
+.plus:hover {
+	background-color: #bcb;
+}
+
+.free {
+	background-color: #dfd;
+}
+
+.free:hover {
+	background-color: #cec;
+}
+
+.premium {
+	background-color: #575;
+}
+
+.premium:hover {
+	background-color: #565;
+}
+
+.premium h1, .premium h2{
+	color: white;
 }
