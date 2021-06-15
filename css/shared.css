@@ -53,6 +53,7 @@
 
 .plus:hover {
 	background-color: #bcb;
+	border-left: 0;
 }
 
 .clearfix {
@@ -68,6 +69,7 @@
 
 .free:hover {
 	background-color: #cec;
+	border-right: 0;
 }
 
 .premium {
@@ -76,6 +78,7 @@
 
 .premium:hover {
 	background-color: #565;
+	border-left: 0;
 }
 
 .premium h1, .premium h2{
