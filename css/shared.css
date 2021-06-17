@@ -60,11 +60,7 @@
 	position: relative;
 }
 
-.pack-badge {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-}
+
 
 .plus:hover {
 	background-color: #bcb;
@@ -98,4 +94,14 @@
 
 .premium h1, .premium h2{
 	color: white;
+}
+
+.tiago-box .pack-badge {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 12px;
+	color: white;
+	background-color: #ff5454;
+	padding: 8px;
 }
