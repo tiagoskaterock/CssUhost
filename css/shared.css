@@ -56,7 +56,14 @@
 }
 
 .plus {
-	background-color: #bdb;
+	background-color: #ada;
+	position: relative;
+}
+
+.pack-badge {
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }
 
 .plus:hover {
