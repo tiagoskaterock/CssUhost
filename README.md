@@ -1,6 +1,7 @@
 # css
 
 A CSS project made using HTML and CSS.
+Classes at Udemy
 
 ![CSS](images/1.png)
 ![CSS](images/2.png)
