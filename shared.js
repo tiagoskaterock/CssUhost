@@ -4,7 +4,11 @@ let modal = document.querySelector('.modal')
 
 let selectPlanButtons = document.querySelectorAll('.plan button')
 
+let closeButton = document.querySelector('.modal__action--negative') 
 
+
+
+// open modal
 for(let i = 0; i < selectPlanButtons.length; i++) {
 
   selectPlanButtons[i].addEventListener('click', function () {
@@ -18,6 +22,26 @@ for(let i = 0; i < selectPlanButtons.length; i++) {
   })
 
 }
+// end open modal
+
+
+
+// close modal
+function closeModal() {
+  backdrop.style.display = 'none'
+  modal.style.display = 'none'
+}
+
+
+closeButton.addEventListener('click', function() {
+  closeModal()
+})
+
+
+backdrop.addEventListener('click', function() {
+  closeModal()
+})
+// end close modal
 
 
 
