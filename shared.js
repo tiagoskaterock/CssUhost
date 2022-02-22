@@ -32,15 +32,9 @@ function closeModal() {
   modal.style.display = 'none'
 }
 
+closeButton.addEventListener('click', closeModal)
 
-closeButton.addEventListener('click', function() {
-  closeModal()
-})
-
-
-backdrop.addEventListener('click', function() {
-  closeModal()
-})
+backdrop.addEventListener('click', closeModal)
 // end close modal
 
 
