@@ -6,6 +6,10 @@ let selectPlanButtons = document.querySelectorAll('.plan button')
 
 let closeButton = document.querySelector('.modal__action--negative') 
 
+let toogleButton = document.querySelector('.toggle-button')
+
+let mobileNav = document.querySelector('.mobile-nav')
+
 
 
 // open modal
@@ -26,16 +30,61 @@ for(let i = 0; i < selectPlanButtons.length; i++) {
 
 
 
-// close modal
-function closeModal() {
-  backdrop.style.display = 'none'
-  modal.style.display = 'none'
-}
+
 
 closeButton.addEventListener('click', closeModal)
 
-backdrop.addEventListener('click', closeModal)
-// end close modal
+
+// clique em backdrop fecha tudo
+backdrop.addEventListener('click', function() {  
+  closeModal()
+})
 
 
 
+
+
+// hamburger button mostra menu lateral
+toogleButton.addEventListener('click', function() {
+  showBackdrop()
+  showMobileNav()
+})
+// end hamburger button
+
+
+
+
+function closeModal() {
+  hideMobileNav()
+  hideBackdrop()
+  hideModal()
+}
+
+
+
+
+
+
+function hideMobileNav() {
+  mobileNav.style.display = 'none'
+}
+
+function showMobileNav() {
+  mobileNav.style.display = 'block'
+}
+
+function showBackdrop() {
+  backdrop.style.display = 'block'
+}
+
+function hideBackdrop() {
+  backdrop.style.display = 'none'
+}
+
+function showModal() {
+  modal.style.display = 'block'
+}
+
+function hideModal() {
+  modal.style.display = 'none'
+}
