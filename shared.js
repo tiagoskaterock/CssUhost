@@ -17,11 +17,9 @@ for(let i = 0; i < selectPlanButtons.length; i++) {
 
   selectPlanButtons[i].addEventListener('click', function () {
 
-    console.log(selectPlanButtons[i])
+    showModal()
 
-    backdrop.style.display = 'block'
-
-    modal.style.display = 'block'
+    showBackdrop()
 
   })
 
@@ -31,14 +29,12 @@ for(let i = 0; i < selectPlanButtons.length; i++) {
 
 
 
-
+// clique em botão fechar fecha tudo
 closeButton.addEventListener('click', closeModal)
 
 
 // clique em backdrop fecha tudo
-backdrop.addEventListener('click', function() {  
-  closeModal()
-})
+backdrop.addEventListener('click', closeModal)
 
 
 
@@ -60,31 +56,26 @@ function closeModal() {
   hideModal()
 }
 
-
-
-
-
-
 function hideMobileNav() {
-  mobileNav.style.display = 'none'
+  mobileNav.classList.remove('open')
 }
 
 function showMobileNav() {
-  mobileNav.style.display = 'block'
+  mobileNav.classList.add('open')
 }
 
 function showBackdrop() {
-  backdrop.style.display = 'block'
+  backdrop.classList.add('open')
 }
 
 function hideBackdrop() {
-  backdrop.style.display = 'none'
+  backdrop.classList.remove('open')
 }
 
 function showModal() {
-  modal.style.display = 'block'
+  modal.classList.add('open')
 }
 
 function hideModal() {
-  modal.style.display = 'none'
+  modal.classList.remove('open')
 }

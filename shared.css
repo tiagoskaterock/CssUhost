@@ -207,3 +207,7 @@ body {
 }
 
 /* end toggle button */
+
+.open {
+    display: block !important;
+}
