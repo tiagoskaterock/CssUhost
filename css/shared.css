@@ -51,7 +51,7 @@ body {
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 74px);
+    width: calc(100% - 104px);
     vertical-align: middle;
 }
 

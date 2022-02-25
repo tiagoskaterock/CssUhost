@@ -5,6 +5,8 @@
         <section id="product-overview">
             <h1>Get the freedom you deserve.</h1>
         </section>
+
+        
         <section id="plans">
             <h1 class="section-title">Choose Your Plan</h1>
             <div class="plan__list">
