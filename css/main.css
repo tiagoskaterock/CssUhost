@@ -97,7 +97,6 @@
 }
 
 @media (min-width:  40rem) {
-
   .plan__list {
     width: 100%;  
     text-align: center;
@@ -135,9 +134,7 @@
 }
 
 .key-feature {
-  display: inline-block;
-  width: 30%;
-  vertical-align: top;
+  width: 100%;
 }
 
 .key-feature__image {
@@ -148,6 +145,7 @@
   border-radius: 50%;
   margin: auto;
   padding: 1.5rem;
+  margin-top: 50px;
 }
 
 .key-feature__description {
@@ -157,6 +155,13 @@
   font-size: 1.2rem;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+@media (min-width:  40rem) {
+  .key-feature {
+    width: 30%;
+    display: inline-block;
+    max-width: 25rem;
+  }
+  .key-feature__image {
+    margin-top: 0;
+  }
+}
