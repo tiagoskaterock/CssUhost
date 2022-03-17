@@ -1,10 +1,8 @@
 <?php include('includes/header.php') ?>
 
-
 <main>
 
 
-  
   <section id="product-overview">
     <h1>Get the freedom you deserve.</h1>
   </section>
