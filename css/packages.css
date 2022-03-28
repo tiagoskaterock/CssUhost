@@ -88,3 +88,25 @@ main {
 #premium .package__subtitle {
     color: #bbb;
 }
+
+.packages {
+    background-image: url('../images/plans-background.jpg');
+}
+
+@media(min-width: 1500px) {    
+    main {        
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    #plus {
+        border-left: 4px solid #0e4f1f;
+    }
+    #free {
+        border-right: 4px solid #0e4f1f;   
+    }
+    #plus:hover, #free:hover, #premium:hover {
+        border-left: 4px solid #ff5454;
+        border-right: 4px solid #ff5454;   
+    }   
+
+}

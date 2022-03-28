@@ -1,5 +1,7 @@
 <?php include('includes/header.php') ?>
 
+<div class="packages">
+
     <main>
         <section class="package" id="plus">
             <a href="#">
@@ -27,6 +29,7 @@
         </section>
     </main>
     
+</div>
 
 
     <?php include('includes/footer.php') ?>
