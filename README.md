@@ -1,4 +1,4 @@
-# css
+# css website classes
 
 A CSS project made using HTML and CSS.
 Classes at Udemy
