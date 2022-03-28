@@ -43,6 +43,8 @@ body {
     display: inline-block;
 }
 
+
+
 .main-header__brand img {
     height: 100%;
     /* width: 100%; */
@@ -59,6 +61,13 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: none;
+}
+
+@media (min-width: 41rem) {
+    .main-nav__items {
+        display: inline-block;
+    }
 }
 
 .main-nav__item {
@@ -191,7 +200,13 @@ body {
     cursor: pointer;
     padding-top: 0;
     padding-bottom: 0;
-    vertical-align: middle;
+    vertical-align: middle;    
+}
+
+@media (min-width: 39rem) {
+    .toggle-button {
+        display: none;
+    }
 }
 
 .toggle-button:focus {
