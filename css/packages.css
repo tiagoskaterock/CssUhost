@@ -89,8 +89,10 @@ main {
     color: #bbb;
 }
 
-.packages {
+.packages {    
     background-image: url('../images/plans-background.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
 @media(min-width: 1500px) {    
