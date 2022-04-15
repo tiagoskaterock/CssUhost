@@ -37,7 +37,8 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5rem;
+    height: .5rem;
+    /* font-size: 1.5rem; */
     height: 1.5rem;
     /* width: 20px; */
     display: inline-block;
@@ -203,7 +204,7 @@ body {
     vertical-align: middle;    
 }
 
-@media (min-width: 39rem) {
+@media (min-width: 41rem) {
     .toggle-button {
         display: none;
     }
