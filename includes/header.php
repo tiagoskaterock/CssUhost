@@ -75,7 +75,7 @@
         </li>
 
         <li class="main-nav__item main-nav__item--cta">
-          <a href="start-hosting">Start Hosting</a>
+          <a href="hosting">Start Hosting</a>
         </li>
 
       </ul>
@@ -104,7 +104,7 @@
       </li>
 
       <li class="mobile-nav__item mobile-nav__item--cta">
-        <a href="start-hosting">Start Hosting</a>
+        <a href="hosting">Start Hosting</a>
       </li>
 
     </ul>

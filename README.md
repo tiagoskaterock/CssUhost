@@ -10,3 +10,4 @@ Classes at Udemy
 ![CSS](images/5.png)
 ![CSS](images/6.png)
 ![CSS](images/7.png)
+![CSS](images/8.png)
