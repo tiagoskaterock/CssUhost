@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+main {
+    min-height: calc(100vh - 3.5rem - 8rem);
+}
+
 .backdrop {
     position: fixed;
     display: none;
@@ -109,8 +113,10 @@ body {
 
 .main-footer {
     background: black;
-    padding: 2rem;
-    margin-top: 3rem;
+    padding: 4rem;
+    /* margin-top: 3rem; */
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .main-footer__links {
