@@ -5,10 +5,34 @@
 	padding-top: 1rem;
 }
 
+.signup-form label {
+	font-weight: bold;
+}
+
 .signup-form label,
 .signup-form input,
 .signup-form select {
+	padding: 1rem;
 	display: block;
 	margin-top: 1rem;
 	width: 100%;
+}
+
+/* .signup-form input[type="checkbox"]  */
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+	width: auto;
+	display: inline-block;
+}
+
+.signup-form button[type="submit"] {
+	display: block;
+	margin-top: 1rem;
+}
+
+@media(min-width: 40rem) {
+	.signup-form {
+		margin: auto;
+		width: 25rem;
+	}
 }
