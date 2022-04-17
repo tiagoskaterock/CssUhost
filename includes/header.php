@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/customers.css">
+  <link rel="stylesheet" href="css/hosting.css">
 </head>
 
 <body>

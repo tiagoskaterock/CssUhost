@@ -2,6 +2,7 @@
 
 <main class="signup-page">
     <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+
     <form action="#" class="signup-form">
         <label for="title">Title</label>
         <select id="title">
@@ -22,6 +23,7 @@
         </label>
         <button type="submit" class="button">Sign Up</button>
     </form>
+    
 </main>
 
 <?php include "includes/footer.php"; ?>
