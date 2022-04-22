@@ -23,6 +23,9 @@
 	width: 100%;
 }
 
+
+
+
 /* .signup-form input[type="checkbox"]  */
 .signup-form input[id*="terms"],
 .signup-form input[id*="terms"] + label {
@@ -51,6 +54,16 @@
 .signup-form input[type="checkbox"]:checked {
 	background: #2ddf5c;
 	outline: #0e4f1f;
+}
+
+/*
+.signup-form input.invalid, 
+.signup-form select.invalid,
+*/
+.signup-form :invalid
+{
+	border-color:red;
+	background: #faacac;
 }
 
 .signup-form input:focus,
