@@ -35,7 +35,7 @@
         </label>
 
 
-        <button type="submit" class="button">Sign Up</button>
+        <button type="submit" class="button" disabled>Sign Up</button>
     </form>
     
 </main>

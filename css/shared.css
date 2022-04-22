@@ -162,7 +162,12 @@ main {
     outline: none;
 }
 
-
+.button[disabled] {
+    cursor: not-allowed;
+    border-color: #a1a1a1;
+    background-color: #ccc;
+    color: #a1a1a1;
+}
 
 
 
