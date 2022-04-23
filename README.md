@@ -3,8 +3,8 @@
 A CSS project made using HTML and CSS.
 Classes at Udemy
 
-![CSS](images/1.jpeg)
-![CSS](images/2.jpg)
+![CSS](images/1.png)
+![CSS](images/2.png)
 ![CSS](images/3.png)
 ![CSS](images/4.png)
 ![CSS](images/5.png)
