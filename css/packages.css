@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("fonts/Anonymous_Pro/AnonymousPro-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("fonts/Anonymous_Pro/AnonymousPro-Bold.ttf");
+    font-weight: 700;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
 
 main {
@@ -56,9 +68,12 @@ main {
     font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
-    font-family: "Roboto", "sans-serif";
-    font-weight: 900;
+    font-family: "AnonymousPro";
+    font-weight: bold;
+    
+    /*font-weight: 900;
     font-style: italic;
+    */
 }
 
 .clearfix {
