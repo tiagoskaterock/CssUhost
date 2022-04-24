@@ -70,6 +70,7 @@ main {
     background: white;
     font-family: "AnonymousPro";
     font-weight: bold;
+    text-shadow: 2px 2px 7px rgb(184, 177, 177);
     
     /*font-weight: 900;
     font-style: italic;
