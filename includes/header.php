@@ -15,6 +15,11 @@
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="css/customers.css">
   <link rel="stylesheet" href="css/hosting.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
