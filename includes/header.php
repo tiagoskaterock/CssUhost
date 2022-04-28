@@ -63,7 +63,7 @@
     <nav class="main-nav">
       <ul class="main-nav__items">
 
-        <li class="main-nav__item">
+        <li class="main-nav__item home-item">
           <a href=".">Home</a>
         </li>
 
