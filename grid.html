@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Grid - Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+
+  <style>
+  	body {
+  		background-color: white;  		
+  		color: white;
+  		font-weight: bolder;
+  		text-align: center;
+  	}
+
+  	.header {
+  		grid-area: header;
+  		padding: 20px;  		
+  		background-color: #777;  		
+  	}
+
+  	.sidebar {
+  		grid-area: sidebar;
+  		padding: 20px;  		
+  		background-color: #777;
+  		height: 500px;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;  		
+  	}
+
+  	.main {
+  		grid-area: main;
+  		padding: 20px;
+  		height: 500px;  		
+  		background-color: #777;
+  		display: flex;
+  		align-items: center;
+  		justify-content: center;
+  	}
+
+  	.footer {
+  		grid-area: footer;
+  		padding: 20px;  		
+  		background-color: #777;
+  	}
+
+  	.grid-wrapper {
+  		display: grid;
+  		grid-template-areas: 
+  			'header header header header header header'
+  			'sidebar sidebar main main main main'
+  			'footer footer footer footer footer footer'
+  			;
+  		gap: 20px;
+  		padding: 10px;
+  	}
+  </style>
+
+
+</head>
+<body>
+  
+
+
+<div class="grid-wrapper">
+	
+	<section class="header">
+	  HEADER
+	</section>
+
+
+
+	<aside class="sidebar">
+		SIDEBAR
+	</aside>
+
+
+
+	<main class="main">
+		MAIN CONTENT
+	</main>
+
+
+
+	<footer class="footer">
+		FOOTER
+	</footer>
+
+</div>
+
+
+
+
+
+</body>
+</html>
+		
