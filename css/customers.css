@@ -44,17 +44,22 @@
 @media(min-width: 39rem) {
   .testimonial {
     max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
-  .testimonial__info {    
+  .testimonial__info { 
+    /*   
     display: inline-block;
     vertical-align: middle;
+    */
     width: 49%;
   } 
   .testimonial__image {   
-    vertical-align: top;
+    /* vertical-align: top; */
   }
   .testimonial__image-container {
-    display: inline-block;    
+    /* display: inline-block; */
     width: 49%;
   }
 }
