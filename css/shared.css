@@ -2,13 +2,28 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    display: grid;
+    grid-template-rows: 3.5rem auto 8rem;
+    margin-top: -10px;
+    /* padding-top: 3rem; */
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+
+
 }
 
 main {
-    min-height: calc(100vh - 3.5rem - 8rem);
+    /* grid-row: 2 / 3; */
+    grid-area: main;
+    /* min-height: calc(100vh - 3.5rem - 8rem); */
 }
 
 .backdrop {
@@ -139,6 +154,8 @@ main {
     /* margin-top: 3rem; */
     margin-top: 0;
     margin-bottom: 0;
+    /* grid-row: 3 / 4; */
+    grid-area: footer;
 }
 
 .main-footer nav {
