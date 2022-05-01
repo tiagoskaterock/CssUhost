@@ -6,8 +6,8 @@
     <form action="#" class="signup-form">
 
 
-        <label for="title">Title</label>
-        <select id="title" class="invalid">
+        <label for="title" class="title-label">Title</label>
+        <select id="title" class="invalid title-select">
             <option value="mr">Mr.</option>
             <option value="ms">Ms.</option>
         </select>
@@ -28,14 +28,15 @@
         <label for="password">Password</label>
         <input type="password" id="password" required>
 
+        <div class="signup-form__checkbox">
+            <input type="checkbox" id="agree-terms" required>
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>            
+        </div>
 
-        <input type="checkbox" id="agree-terms" required>
-        <label for="agree-terms">Agree to
-            <a href="#">Terms &amp; Conditions</a>
-        </label>
 
-
-        <button type="submit" class="button" disabled>Sign Up</button>
+        <button type="submit" class="button btn-submit">Sign Up</button>
     </form>
     
 </main>

@@ -5,6 +5,14 @@
 	padding-top: 1rem;
 }
 
+.signup-form {
+	padding: 1rem;
+	display: grid;
+	grid-auto-rows: 2rem;
+	grid-row-gap: .5rem;
+	margin-bottom: 25px;
+}
+
 .signup-form button[type="submit"] {
 	margin-bottom: 40px;
 }
@@ -19,7 +27,7 @@
 	/*padding: 1rem;*/
 	padding: 0.2rem 0.5rem;
 	display: block;
-	margin-top: 1rem;
+	/* margin-top: 1rem; */
 	width: 100%;
 }
 
@@ -78,9 +86,26 @@
 	margin-top: 1rem;
 }
 
+.btn-submit {
+	height: 38px;
+}
+
 @media(min-width: 40rem) {
+
 	.signup-form {
 		margin: auto;
-		width: 25rem;
+		width: 30rem;
+		grid-template-columns: 10rem auto;
+		grid-row-gap: 1rem;
+		grid-column-gap: .5rem;
+		margin-bottom: 25px;
+	}
+
+	.signup-form__checkbox {
+		grid-column: span 2;
+	}
+
+	.title-label, .title-select {
+		grid-column: span 2;
 	}
 }
