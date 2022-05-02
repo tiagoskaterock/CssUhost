@@ -1,17 +1,17 @@
 .modal {
   position: fixed;
-  /* display: none; */
+  display: block; 
   transform: translateY(-3rem);
-  transition: opacity .2s ease-out, transform .5s ease-out;
-  opacity: 0;
+  opacity: 0 !important;
   z-index: 200;
-  top: 20%;
+  top: -5%;
   left: 30%;
   width: 40%;
   background: white;
   padding: 1rem;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  transition: top .4s ease-out, opacity .4s ease-out;
 }
 
 .modal__title {
@@ -48,4 +48,11 @@
 .modal__action--negative:active {
   background: #ff5454;
   border-color: #ff5454;
+}
+
+.modal.open {
+  top: 10%;
+  display: block;
+  opacity: 1 !important;
+  transition: top .4s ease-out, opacity .4s ease-out;
 }
