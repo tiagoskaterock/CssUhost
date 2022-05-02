@@ -132,7 +132,7 @@ main {
 } 
 
 .main-nav__item--cta {
-    animation: wiggle .2s 3s 8 alternate none;
+    animation: wiggle .3s 3s 8 ease-out none;
 } 
 
 .main-nav__item--cta a, 
@@ -307,10 +307,13 @@ main {
 
 /* animations */
 @keyframes wiggle {
-    from {
+    0% {
         transform: rotateZ(0);
     }
-    to {
-        transform: rotateZ(10deg);
+    50% {
+        transform: rotateZ(-3deg);
+    }
+    100% {
+        transform: rotateZ(3deg);
     }
 }
