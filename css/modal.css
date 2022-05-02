@@ -1,6 +1,9 @@
 .modal {
   position: fixed;
-  display: none;
+  /* display: none; */
+  transform: translateY(-3rem);
+  transition: opacity .2s ease-out, transform .5s ease-out;
+  opacity: 0;
   z-index: 200;
   top: 20%;
   left: 30%;

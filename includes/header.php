@@ -24,7 +24,6 @@
   <div class="backdrop"></div>
 
 
-
   <!-- modal -->
   <div class="modal">
     <h1 class="modal__title">Do you want to continue?</h1>
@@ -58,56 +57,10 @@
     <!-- end logo -->
 
 
-
-    <!-- top nav -->
-    <nav class="main-nav">
-      <ul class="main-nav__items">
-
-        <li class="main-nav__item home-item">
-          <a href=".">Home</a>
-        </li>
-
-        <li class="main-nav__item">
-          <a href="packages">Packages</a>
-        </li>
-
-        <li class="main-nav__item">
-          <a href="customers">Customers</a>
-        </li>
-
-        <li class="main-nav__item main-nav__item--cta">
-          <a href="hosting">Start Hosting</a>
-        </li>
-
-      </ul>
-    </nav>
-    <!-- end top nav -->
-
+    <?php include 'includes/nav_top.php' ?>
 
 
   </header>
 
 
-  <!-- mobile nav -->
-  <nav class="mobile-nav">
-    <ul class="mobile-nav__items">
-
-      <li class="mobile-nav__item">
-        <a href=".">Home</a>
-      </li>
-
-      <li class="mobile-nav__item">
-        <a href="packages">Packages</a>
-      </li>
-
-      <li class="mobile-nav__item">
-        <a href="customers">Customers</a>
-      </li>
-
-      <li class="mobile-nav__item mobile-nav__item--cta">
-        <a href="hosting">Start Hosting</a>
-      </li>
-
-    </ul>
-  </nav>
-  <!-- end mobile nav -->
+<?php include 'includes/nav_mobile.php' ?>
