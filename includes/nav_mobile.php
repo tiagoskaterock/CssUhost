@@ -3,6 +3,10 @@
     <ul class="mobile-nav__items">
 
       <li class="mobile-nav__item">
+        <img src="images/uhost-icon.png" width="50" alt="uHost - Your favorite hosting company">
+      </li>
+
+      <li class="mobile-nav__item">
         <a href=".">Home</a>
       </li>
 

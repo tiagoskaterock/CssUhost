@@ -115,7 +115,7 @@ main {
 .main-nav__item {
     /* display: inline-block; */
     margin: 0 1rem;
-}      
+}   
 
 .main-nav__item a, 
 .mobile-nav__item a {
@@ -220,14 +220,20 @@ main {
 
 /* navbar lateral */
 .mobile-nav {
-    display: none; 
+    display: block; 
     position: fixed;
     z-index: 101;
     top: 0;
-    left: 0;
+    left: -500px;
     background: white;
     width: 70%;
     height: 70vh;
+    transition: left .4s ease-out;
+}
+
+.mobile-nav.open {
+    left: 0;
+    transition: left .4s ease-out;
 }
 
 .mobile-nav__items {
