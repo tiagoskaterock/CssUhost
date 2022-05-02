@@ -129,7 +129,11 @@ main {
 .main-nav__item a:active {
     color: white;
     border-bottom: 5px solid white;
-}  
+} 
+
+.main-nav__item--cta {
+    animation: wiggle .2s 3s 8 alternate none;
+} 
 
 .main-nav__item--cta a, 
 .mobile-nav__item--cta a {
@@ -228,12 +232,14 @@ main {
     background: white;
     width: 70%;
     height: 70vh;
-    transition: left .4s ease-out;
+    opacity: 0;
+    transition: left .4s ease-out, opacity .4s ease-out;
 }
 
 .mobile-nav.open {
+    opacity: 1;
     left: 0;
-    transition: left .4s ease-out;
+    transition: left .4s ease-out, opacity .4s ease-out;
 }
 
 .mobile-nav__items {
@@ -297,4 +303,14 @@ main {
     display: block !important;
     opacity: 1 !important;
     transform: translateY(0) !important;
+}
+
+/* animations */
+@keyframes wiggle {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        transform: rotateZ(10deg);
+    }
 }
