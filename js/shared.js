@@ -10,6 +10,8 @@ let toogleButton = document.querySelector('.toggle-button')
 
 let mobileNav = document.querySelector('.mobile-nav')
 
+let ctaButton = document.querySelector('.main-nav__item--cta')
+
 
 
 // open modal
@@ -49,6 +51,19 @@ toogleButton.addEventListener('click', function() {
 
 
 
+// cta
+ctaButton.addEventListener('animationstart', function(event) {
+  console.log('animation started', event)
+})
+
+ctaButton.addEventListener('animationend', function(event) {
+  console.log('animation ended', event)
+})
+
+ctaButton.addEventListener('animationiteration', function(event) {
+  console.log('animation iteration', event)
+})
+
 
 function closeModal() {
   hideMobileNav()
@@ -79,3 +94,4 @@ function showModal() {
 function hideModal() {
   modal.classList.remove('open')
 }
+
