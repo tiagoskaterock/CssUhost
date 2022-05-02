@@ -143,3 +143,29 @@ main {
     }   
 
 }
+
+#plus:hover, #premium:hover {
+    animation: go-right .4s ease-out forwards;
+}
+
+#free:hover {
+    animation: go-left .4s ease-out forwards;
+}
+
+@keyframes go-right {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes go-left {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}
