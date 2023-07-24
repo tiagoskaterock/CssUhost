@@ -1,7 +1,17 @@
-# css website classes
+<h1 align="center">uHost Website</h1>
 
-A CSS project made using HTML and CSS.
-Classes at Udemy
+<h2 align="center">Project made using CSS</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css" alt="Dev icons" />
+</p>
+
+<p align="center">
+  Classes here:
+  <a href="[https://www.udemy.com/course/advanced-css-and-sass](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)" target="_blank>
+    Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+  </a>
+</p>
 
 ![CSS](images/1.png)
 ![CSS](images/2.png)
