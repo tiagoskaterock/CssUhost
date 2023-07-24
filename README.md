@@ -8,7 +8,7 @@
 
 <p align="center">
   Classes here:
-  <a href="[https://www.udemy.com/course/advanced-css-and-sass](https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/)" target="_blank>
+  <a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/" target="_blank>
     Advanced CSS and Sass: Flexbox, Grid, Animations and More!
   </a>
 </p>
